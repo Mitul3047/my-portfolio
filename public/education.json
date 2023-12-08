@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "institute_name": "ABC University",
+      "starting_year": 2017,
+      "passing_year": 2021,
+      "cgpa": 3.7,
+      "out_of_cgpa": 4.0,
+      "subjects": ["Mathematics", "Physics", "Computer Science"]
+    },
+    {
+      "id": 2,
+      "institute_name": "XYZ College",
+      "starting_year": 2015,
+      "passing_year": 2019,
+      "cgpa": 3.5,
+      "out_of_cgpa": 4.0,
+      "subjects": ["Chemistry", "Biology", "Statistics"]
+    },
+    {
+      "id": 3,
+      "institute_name": "PQR Institute",
+      "starting_year": 2018,
+      "passing_year": 2022,
+      "cgpa": 3.9,
+      "out_of_cgpa": 4.0,
+      "subjects": ["Literature", "History", "Philosophy"]
+    }
+  ]
+  
