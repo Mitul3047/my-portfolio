@@ -24,7 +24,7 @@ const NavBar = () => {
                 </HashLink>
             </li>
             <li>
-                <HashLink smooth to="#about">
+                <HashLink smooth to="#skills">
                     Skills
                 </HashLink>
             </li>
@@ -43,7 +43,7 @@ const NavBar = () => {
         </>
 
     return (
-        <div className="navbar fixed py-3 bg-[#000000]">
+        <div className="navbar fixed py-3 bg-[#000000] shadow-yellow-600 shadow">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

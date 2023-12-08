@@ -18,11 +18,11 @@ const Home = () => {
             <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
-                    <div className="max-w-4xl">
-                        <h1 className="mb-5 text-5xl font-bold">Hi!
+                    <div className="max-w-5xl">
+                        <h1 className="mb-5 text-5xl font-bold text-white">Hi! I am
                             <span className="text-[#fca311]"> Shehab Ahamed Chowdhury Mitul</span>
                         </h1>
-                        <h2 className="mb-5 text-4xl">{text} <Cursor cursorStyle='|' /></h2> {/* Ensure the Cursor component is used correctly */}
+                        <h2 className="mb-10 text-4xl text-white font-semibold ">{text} <Cursor cursorStyle='|' /></h2> {/* Ensure the Cursor component is used correctly */}
                         <SocialButton />
                     </div>
                 </div>
