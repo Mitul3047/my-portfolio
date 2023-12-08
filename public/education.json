@@ -1,30 +1,29 @@
 [
     {
-      "id": 1,
-      "institute_name": "ABC University",
-      "starting_year": 2017,
-      "passing_year": 2021,
-      "cgpa": 3.7,
-      "out_of_cgpa": 4.0,
-      "subjects": ["Mathematics", "Physics", "Computer Science"]
+        "id": 3,
+        "passing_year": 2022,
+        "result": "CGPA 3.12",
+        "out_of": 4.0,
+        "degree": "Bachelor of Science in Engineering (B.Sc in Engg)",
+        "subjects": "Electrical and Electronic Engineering",
+        "institute_name": "Bangladesh Army University of Engineering and Technology"
     },
     {
-      "id": 2,
-      "institute_name": "XYZ College",
-      "starting_year": 2015,
-      "passing_year": 2019,
-      "cgpa": 3.5,
-      "out_of_cgpa": 4.0,
-      "subjects": ["Chemistry", "Biology", "Statistics"]
+        "id": 2,
+        "passing_year": 2015,
+        "result": "GPA 5.00",
+        "out_of": 5.0,
+        "degree": "Higher Secondary Certificate (HSC)",
+        "subjects": "Science",
+        "institute_name": "Govt. Tolaram College"
     },
     {
-      "id": 3,
-      "institute_name": "PQR Institute",
-      "starting_year": 2018,
-      "passing_year": 2022,
-      "cgpa": 3.9,
-      "out_of_cgpa": 4.0,
-      "subjects": ["Literature", "History", "Philosophy"]
+        "id": 1,
+        "passing_year": 2013,
+        "result": "GPA 4.88",
+        "out_of": 5.0,
+        "degree": "Secondary School Certificate (SSC)",
+        "subjects": "Science",
+        "institute_name": "Narayanganj Ideal School"
     }
-  ]
-  
+]
