@@ -1,14 +1,15 @@
 import { FaEnvelope, FaLocationArrow, FaPhone } from "react-icons/fa";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import SocialButton from "../SocialButton/SocialButton";
+import Footer from "../Footer/Footer";
 
 
 const ContactUs = () => {
     return (
-        <div className="h-[100vh]" id="contact">
+        <div className="lg:h-[100vh] flex flex-col" id="contact">
             <SectionTitle heading={'Contact Me'}></SectionTitle>
 
-            <div className=" w-full p-4">
+            <div className=" w-full p-4 flex-grow">
                 <div className=" flex flex-col justify-evenly items-center  lg:flex-row-reverse">
                     <div className="text-center lg:text-left mb-5">
                         <div className="text-left text-white space-y-5 mb-6">
@@ -51,6 +52,7 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

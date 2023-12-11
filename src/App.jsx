@@ -7,6 +7,7 @@ import ContactUs from './components/Contact/ContactUs';
 import Education from './components/Education/Education';
 import Skill from './components/Skill/Skill';
 
+
 const App = () => {
   return (
     <div className=''>
@@ -14,9 +15,11 @@ const App = () => {
         <NavBar></NavBar>
         <Home></Home>
         <AboutMe></AboutMe>
-        <Skill></Skill>
         <Education></Education>
+        <Skill></Skill>
+        
         <ContactUs></ContactUs>
+        {/* <Footer></Footer> */}
       </BrowserRouter>
     </div>
   );
