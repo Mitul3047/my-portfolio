@@ -1,35 +1,23 @@
 import { useState, useEffect } from "react";
-import axios from "axios";
+
 import SectionTitle from "../SectionTitle/SectionTitle";
 
 const Education = () => {
-    const [data, setData] = useState(null);
-    const [loading, setLoading] = useState(true);
-
+    const [data, setData] = useState([]);
+   
     useEffect(() => {
-        async function fetchData() {
-            try {
-                const response = await axios.get('/public/education.json');
-                setData(response.data);
-            } catch (error) {
-                console.error('Error fetching data:', error);
-            } finally {
-                setLoading(false);
-            }
-        }
-
-        fetchData();
-    }, []); // Empty dependency array means this effect will run once, similar to componentDidMount
-
+        fetch('/education.json')
+            .then(res => res.json())
+            .then(data => setData(data));
+    }, []);
+console.log(data);
     return (
         <div className="lg:h-[100vh]" id="education">
             <SectionTitle heading={'Education'} />
             <div className="shadow-amber-300 shadow-md w-[80%] border-2 lg:h-[68vh] flex justify-center items-center mx-auto lg:mx-20 rounded-lg border-yellow-600">
-                {loading ? (
-                    <p>Loading...</p>
-                ) : (
+
                     <div className="grid p-2 grid-cols-1 lg:grid-cols-2 w-full lg:w-[80%] mx-auto gap-6  "> {/* Fixed typo here */}
-                        {data &&
+                        {
                             data.map((item, index) => (
                                 <div key={index} className="">
                                     <div className="text-white space-y-2 flex  flex-col justify-center">
@@ -44,7 +32,7 @@ const Education = () => {
                                 </div>
                             ))}
                     </div>
-                )}
+
             </div>
         </div>
     );

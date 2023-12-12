@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className='' id="about">
             <SectionTitle heading={'About us'}></SectionTitle>
             <div className="flex flex-col lg:flex-row justify-between w-[80%] mx-auto gap-4 items-center">
-                <img className="rounded-full w-[30%]" src="https://avatars.githubusercontent.com/u/121333557?v=4" alt="" />
+                <img className="rounded-full w-full lg:w-[30%]" src="https://avatars.githubusercontent.com/u/121333557?v=4" alt="" />
                 <div className="max-w-3xl shadow-amber-300 shadow-md rounded-md p-4">
                     <p className="text-justify text-sm">
                         Hello there! <br />
@@ -16,7 +16,7 @@ const AboutMe = () => {
                     <div className="text-yellow-500 flex justify-end gap-5 ">
 
                         <a href="./Shehab_Ahamed_Chowdhury_Mitul_Resume.pdf" download="Shehab_Ahamed_Chowdhury_Mitul_Resume.pdf">
-                        <button className="btn bg-[#fca311] text-white hover:bg-white hover:text-[#fca311]" title="Download Resume">
+                            <button className="btn bg-[#fca311] text-white hover:bg-white hover:text-[#fca311]" title="Download Resume">
                                 <FaDownload />
                             </button>
                         </a>
