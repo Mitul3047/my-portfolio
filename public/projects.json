@@ -1,0 +1,32 @@
+[
+  {
+    "project_id": 1,
+    "project_name": "Survey Management System",
+    "project_img": "https://raw.githubusercontent.com/Mitul3047/Image-link-hosting-repo/main/portfolio/project%20id%201.PNG",
+    "description": "Payment Integration and User Subscription Model. Robust User Management and Role-based Access Control. Interactive Dashboard and Survey Creation Tool",
+    "technologies_used": ["React", "HTML5", "Tailwind CSS", "Material UI", "JavaScript", "React.js", "Node.js", "Express.js", "Firebase", "JWT", "Vercel"],
+    "live_link": "https://survey-auth-3fdb6.firebaseapp.com/",
+    "git_client_link": "https://github.com/Mitul3047/survey-management-system-client-A12",
+    "git_server_link": "https://github.com/Mitul3047/survey-management-system-server-A12"
+  },
+  {
+    "project_id": 2,
+    "project_name": "Job Management System",
+    "project_img": "https://github.com/Mitul3047/Image-link-hosting-repo/blob/main/portfolio/project%20id%202.PNG?raw=true",
+    "description": "User Authentication and Authorization, Job Management and Interaction, Data Management and Persistence Responsive Design and Visual Appeal, Navigation and Accessibility.",
+    "technologies_used": ["HTML5", "Tailwind CSS", "Daisy UI", "JavaScript", "React.js", "Node.js", "Express.js", "Firebase", "JWT", "Vercel", "Framer Motion", "MongoDB", "Express", "Node.js"],
+    "live_link": "https://job-management-auth.web.app/",
+    "git_client_link": "https://github.com/Mitul3047/Job-management-system-client-A11",
+    "git_server_link": "https://github.com/Mitul3047/Job-management-system-server-A11"
+  },
+  {
+    "project_id": 3,
+    "project_name": "Brand Shop Management System",
+    "project_img": "https://raw.githubusercontent.com/Mitul3047/Image-link-hosting-repo/main/portfolio/project%20id%203.PNG",
+    "description": "Brand-Centric Website Creation, Product Management and Interaction, Brand-Specific Pages with Product Listings, User Cart and Interaction, Authentication and Error Handling",
+    "technologies_used": ["HTML5", "Tailwind CSS", "Daisy UI", "JavaScript", "React.js", "Node.js", "Express.js", "Firebase", "JWT", "Vercel", "Framer Motion", "Firebase"],
+    "live_link": "https://technology-and-electronic-auth.web.app/",
+    "git_client_link": "https://github.com/Mitul3047/brandshop-client-side-A10",
+    "git_server_link": "https://github.com/Mitul3047/brandshop-server-A10"
+  }
+]

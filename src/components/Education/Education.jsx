@@ -24,7 +24,7 @@ const Education = () => {
     return (
         <div className="lg:h-[100vh]" id="education">
             <SectionTitle heading={'Education'} />
-            <div className="shadow-amber-300 shadow-md border-2 lg:h-[68vh] flex justify-center items-center mx-2 lg:mx-20 rounded-lg border-yellow-600">
+            <div className="shadow-amber-300 shadow-md w-[80%] border-2 lg:h-[68vh] flex justify-center items-center mx-auto lg:mx-20 rounded-lg border-yellow-600">
                 {loading ? (
                     <p>Loading...</p>
                 ) : (

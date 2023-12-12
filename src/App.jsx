@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import ContactUs from './components/Contact/ContactUs';
 import Education from './components/Education/Education';
 import Skill from './components/Skill/Skill';
+import Projects from './components/Projects/Projects';
 
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
         <AboutMe></AboutMe>
         <Education></Education>
         <Skill></Skill>
-        
+        <Projects></Projects>
         <ContactUs></ContactUs>
         {/* <Footer></Footer> */}
       </BrowserRouter>
