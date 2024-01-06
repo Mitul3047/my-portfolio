@@ -22,7 +22,7 @@ const ContactUs = () => {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:3000/users', formData);
+            const response = await axios.post('https://portfolio-eta-two-98.vercel.app/users', formData);
             console.log('Post request successful', response.data);
 
             // Show success message using SweetAlert2
